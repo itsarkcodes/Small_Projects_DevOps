@@ -6,7 +6,7 @@ Password: ```password```
 
 # Setting Up Grafana on AWS EC2
 
-This guide is all the steps to set up Grafana on an AWS EC2 instance.
+These are all the steps to set up Grafana on an AWS EC2 instance.
 
 ## Overview
 Grafana is an open-source platform for monitoring and observability, allowing you to create dashboards and visualize data from various sources.
