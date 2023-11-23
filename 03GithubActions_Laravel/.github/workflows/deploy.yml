@@ -1,0 +1,25 @@
+name: Deploy
+
+# Trigger the workflow on push and
+# pull request events on the master branch
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+# Authenticate to the the server via ssh
+# and run our deployment script
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3 
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }} #Ubuntu
+          username: ${{ secrets.USERNAME }} #ubuntu
+          port: ${{ secrets.PORT }} #8000
+          key: ${{ secrets.SSHKEY }} #provide
+          script: "cd /var/www/example && ./.scripts/deploy.sh"
