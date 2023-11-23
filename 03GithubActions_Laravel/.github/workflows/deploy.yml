@@ -22,4 +22,4 @@ jobs:
           username: ${{ secrets.USERNAME }} #ubuntu
           port: ${{ secrets.PORT }} #8000
           key: ${{ secrets.SSHKEY }} #provide
-          script: "cd /var/www/example && ./.scripts/deploy.sh"
+          script: "cd /var/www/example && ./.scripts/deploy.sh" # Run the deploy.sh from /scripts/deploy.sh to setup project
