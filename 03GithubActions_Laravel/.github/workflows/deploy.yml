@@ -4,9 +4,9 @@ name: Deploy
 # pull request events on the master branch
 on:
   push:
-    branches: ["master"]
+    branches: ["dev"]
   pull_request:
-    branches: ["master"]
+    branches: ["dev"]
 
 # Authenticate to the the server via ssh
 # and run our deployment script
