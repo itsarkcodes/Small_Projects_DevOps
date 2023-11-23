@@ -58,13 +58,3 @@ Grafana is an open-source platform for monitoring and observability, allowing yo
 
 6. **Configure Grafana**
    - Follow the on-screen prompts to set up data sources, create dashboards, and configure Grafana according to your monitoring needs.
-
-## Additional Resources
-
-- [Grafana Documentation](https://grafana.com/docs/grafana/latest/)
-- [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/)
-- [Grafana Community](https://community.grafana.com/)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
