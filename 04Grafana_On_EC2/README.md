@@ -1,3 +1,9 @@
+# Access Grafana dashboard 
+Access the Instance:- http://35.170.229.118:3000/   
+Username: ```admin```   
+Password: ```password```
+<hr/>
+
 # Setting Up Grafana on AWS EC2
 
 This guide provides steps to set up Grafana on an AWS EC2 instance.
